@@ -1,0 +1,9 @@
+# Backend .gitignore (inside the root .gitignore)
+*.pyc
+__pycache__
+.env
+
+# Frontend .gitignore
+node_modules/
+build/
+dist/
