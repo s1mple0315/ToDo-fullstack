@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import App_Router from "./router/App_Router";
+
 const App = () => {
   return (
-    <div className='text-3xl text-red-700'>Todo App</div>
-  )
-}
+    <div className="App container">
+      <Header />
+      <App_Router />
+    </div>
+  );
+};
 
-export default App
+export default App;
